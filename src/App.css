@@ -1,0 +1,25 @@
+/* :root is a pseudo-class selector that represents 
+the highest level parent element in an HTML document, which
+is typically the <html> element 
+commonly used to define global variables
+
+custom properties are defined in the format:
+--property_name: value;
+
+so we can reuse these values throughout the css code.
+.some-element{
+  width: var(--size);
+  hieght: var(--size);
+}
+*/
+:root{
+  --size: 100px;
+  --p1: #f1bf3a;
+  --p2: #ec0b07;
+}
+
+.game-container{
+  margin-top: 50px;
+  display: grid;
+  place-content: center;
+}

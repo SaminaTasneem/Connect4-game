@@ -1,0 +1,49 @@
+.dropzone{
+    height: calc(var(--size)*1.5);
+}
+
+.dropzone div{
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+    /* The position: absolute; CSS property is used to
+     control the positioning of an element within its 
+     containing or nearest positioned ancestor element. 
+     It allows you to place an element precisely where you
+     want it on the web page, without regard to the normal
+     flow of the document. 
+     The position: relative; CSS property is used to 
+     position an element relative to its normal position 
+     in the document's flow, or relative to its nearest 
+     positioned ancestor. Here are the main points to 
+     understand about position: relative;*/
+}
+
+.dropzone .p1{
+    background-color: var(--p1);
+}
+.dropzone .p2{
+    background-color: var(--p2);
+}
+
+.dropzone .active{
+    transition: all ease-in-out 500;
+}
+
+.dropzone .active.column-0{margin-left: 00px;}
+.dropzone .active.column-1{margin-left: 100px;}
+.dropzone .active.column-2{margin-left: 200px;}
+.dropzone .active.column-3{margin-left: 300px;}
+.dropzone .active.column-4{margin-left: 400px;}
+.dropzone .active.column-5{margin-left: 500px;}
+.dropzone .active.column-6{margin-left: 600px;}
+
+.dropzone .active.row-0{transform: translateY(150px);}
+.dropzone .active.row-1{transform: translateY(250px);}
+.dropzone .active.row-2{transform: translateY(350px);}
+.dropzone .active.row-3{transform: translateY(450px);}
+.dropzone .active.row-4{transform: translateY(550px);}
+.dropzone .active.row-5{transform: translateY(650px);}
+
+.drop-zone .active.column--.row--{transition: none;}
